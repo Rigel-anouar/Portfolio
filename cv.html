@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Anouar Bensmail</title>
+    <style>
+        @media print {
+            body { margin: 0; }
+            .cv-container { box-shadow: none; margin: 0; }
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .cv-container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            min-height: 297mm;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .name {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        
+        .job-title {
+            font-size: 18px;
+            margin-bottom: 20px;
+            opacity: 0.9;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-size: 14px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .main-content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .education-item, .experience-item {
+            margin-bottom: 25px;
+            padding-left: 20px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+        
+        .item-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .item-subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .item-date {
+            font-size: 14px;
+            color: #3498db;
+            font-weight: bold;
+        }
+        
+        .item-description {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .skill-category-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .skill-list {
+            font-size: 14px;
+            color: #555;
+        }
+        
+        .languages {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .language {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            min-width: 120px;
+        }
+        
+        .language-name {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .language-level {
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .objective {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            font-size: 15px;
+            line-height: 1.7;
+            color: #555;
+        }
+        
+        .print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        .print-btn:hover {
+            background: #2980b9;
+        }
+        
+        @media print {
+            .print-btn { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <button class="print-btn" onclick="window.print()">📄 Imprimer/PDF</button>
+    
+    <div class="cv-container">
+        <div class="header">
+            <h1 class="name">ANOUAR BENSMAIL</h1>
+            <p class="job-title">Développeur Web & Logiciel</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📞</span>
+                    <span>+212 771845747</span>
+                </div>
+                <div class="contact-item">
+                    <span>📧</span>
+                    <span>anouarismail10@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <span>📍</span>
+                    <span>Marrakech, Maroc</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="section">
+                <h2 class="section-title">Objectif Professionnel</h2>
+                <div class="objective">
+                    Développer mes compétences en développement web et logiciel à travers des projets concrets, des stages et des collaborations techniques. Passionné par les nouvelles technologies, je souhaite contribuer à des projets innovants tout en continuant à apprendre et à évoluer dans le domaine du développement informatique.
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Formation</h2>
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Développement Informatique</div>
+                            <div class="item-subtitle">École Racine, Marrakech</div>
+                        </div>
+                        <div class="item-date">2024 - 2027</div>
+                    </div>
+                    <div class="item-description">Formation en cours - Spécialisation en développement web et logiciel</div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Bachelor en Sciences Physiques</div>
+                            <div class="item-subtitle">Collège Chkili</div>
+                        </div>
+                        <div class="item-date">2022 - 2023</div>
+                    </div>
+                    <div class="item-description">Formation scientifique de base avec focus sur les mathématiques et la physique</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Expérience & Projets</h2>
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Extraction automatique de données depuis PDF</div>
+                            <div class="item-subtitle">Stage chez Tectra</div>
+                        </div>
+                        <div class="item-date">2025</div>
+                    </div>
+                    <div class="item-description">
+                        Pendant mon stage chez Tectra, j'ai développé une application en Python permettant d'extraire automatiquement des informations (Nom, Prénom, CIN...) à partir de fichiers PDF, et de les organiser dans un fichier Excel selon un ordre personnalisé.<br>
+                        👉 <strong>Résultat :</strong> gain de temps important pour l'équipe RH
+                    </div>
+                </div>
+                
+                <div class="experience-item">
+                    <div class="item-header">
+                        <div>
+                            <div class="item-title">Développeur Web - Projet Portfolio</div>
+                            <div class="item-subtitle">Projet Personnel</div>
+                        </div>
+                        <div class="item-date">2025</div>
+                    </div>
+                    <div class="item-description">
+                        • Création d'un site portfolio pour présenter mes compétences et projets<br>
+                        • Utilisation de HTML, CSS (Bootstrap) et JavaScript
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Compétences Techniques</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-category-title">Développement Web</div>
+                        <div class="skill-list">HTML5, CSS3, JavaScript, Bootstrap, WordPress</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Langages de Programmation</div>
+                        <div class="skill-list">Python, Java, C++, JavaScript</div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Outils & Technologies</div>
+                        <div class="skill-list">Git, JSON, Responsive Design, CMS WordPress</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Langues</h2>
+                <div class="languages">
+                    <div class="language">
+                        <div class="language-name">Arabe</div>
+                        <div class="language-level">Langue maternelle</div>
+                    </div>
+                    <div class="language">
+                        <div class="language-name">Français</div>
+                        <div class="language-level">J'apprends</div>
+                    </div>
+                    <div class="language">
+                        <div class="language-name">Anglais</div>
+                        <div class="language-level">Intermédiaire</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Centres d'Intérêt</h2>
+                <div class="objective">
+                    Développement web moderne • Nouvelles technologies • Projets open source • Veille technologique • Sports • Lecture technique
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

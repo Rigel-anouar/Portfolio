@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="anouar Bensmail, portfolio, anouar, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to anouar Portfolio. Full-Stack Web Developer and Android App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="photo/emoji.png" type="image/x-png">
+    <title>Portfolio | Bensmail anouar</title>
+</head>
+<body oncontextmenu="return false">
+
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i> Anouar</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Anouar <span>Bensmail</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/rigel-anouar-8005a1343/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="telegram" aria-label="Telegram" href="https://web.telegram.org/k/" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/rigel_anouar/"><i class="fab fa-instagram" target="_blank"></i></a></li>
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="photo/emoji.png" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="photo/me.jpeg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm Anouar</h3>
+        <span class="tag">Full Stack Developer</span>
+        
+        <p>I am a Full-Stack developer based in marrakech, morocco.      
+          I am very passionate about improving my coding skills & developing applications & websites.
+          Working for myself to improve my skills.
+          Love to build Full-Stack clones. </p>
+        
+        <div class="box-container">
+<div class="box">
+              <p><span> age: </span> 19</p>
+              <p><span> phone : </span> +212 771845747</p>
+            </div> 
+            <div class="box">
+              <p><span> email : </span> anouarismail10@gmail.com</p>
+              <p><span> place : </span> marrakech, morocco</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="cv.html" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+   <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+  
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .section-title .highlight {
+            color: #ffd700;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .skill-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .skill-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .skill-card:hover::before {
+            left: 100%;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+
+        .skill-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .skill-card:hover .skill-icon {
+            transform: rotateY(360deg);
+        }
+
+        .skill-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 0.5rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .skill-description {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        /* Individual skill colors */
+        .bootstrap {
+            background: linear-gradient(135deg, #7952b3, #563d7c);
+        }
+        .bootstrap .skill-icon {
+            background: linear-gradient(135deg, #fff, #f8f9fa);
+            color: #7952b3;
+        }
+
+        .html5 {
+            background: linear-gradient(135deg, #e34c26, #f06529);
+        }
+        .html5 .skill-icon {
+            background: linear-gradient(135deg, #fff, #f8f9fa);
+            color: #e34c26;
+        }
+
+        .javascript {
+            background: linear-gradient(135deg, #f7df1e, #ffeb3b);
+        }
+        .javascript .skill-icon {
+            background: linear-gradient(135deg, #323330, #1a1a1a);
+            color: #f7df1e;
+        }
+
+        .java {
+            background: linear-gradient(135deg, #ed8b00, #f89820);
+        }
+        .java .skill-icon {
+            background: linear-gradient(135deg, #5382a1, #e76f00);
+            color: white;
+        }
+
+        .c-lang {
+            background: linear-gradient(135deg, #00599c, #659ad2);
+        }
+        .c-lang .skill-icon {
+            background: linear-gradient(135deg, #fff, #f8f9fa);
+            color: #00599c;
+        }
+
+        .wordpress {
+            background: linear-gradient(135deg, #21759b, #464646);
+        }
+        .wordpress .skill-icon {
+            background: linear-gradient(135deg, #fff, #f8f9fa);
+            color: #21759b;
+        }
+
+
+
+        /* Pulse animation for icons */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .skill-card:hover .skill-icon {
+            animation: pulse 1s infinite;
+        }
+
+        /* Responsive design */
+        @media (max-width: 1024px) {
+            .skills-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .skill-card {
+                padding: 1.5rem;
+            }
+        }
+
+        /* Floating particles effect */
+        .particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Skills section starts -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-laptop-code"></i> Skills & <span class="highlight">Abilities</span>
+            </h2>
+            
+            <div class="skills-grid" id="skillsContainer">
+                <div class="skill-card bootstrap">
+                    <div class="skill-icon">B</div>
+                    <h3 class="skill-name">Bootstrap</h3>
+                    <p class="skill-description">Responsive web design framework for building modern, mobile-first websites with pre-built components.</p>
+                    <div class="particle" style="top: 20%; left: 10%; animation-delay: 0s;"></div>
+                    <div class="particle" style="top: 60%; right: 15%; animation-delay: 2s;"></div>
+                </div>
+
+                <div class="skill-card html5">
+                    <div class="skill-icon">5</div>
+                    <h3 class="skill-name">HTML5</h3>
+                    <p class="skill-description">Modern markup language for structuring web content with semantic elements and multimedia support.</p>
+                    <div class="particle" style="top: 25%; right: 20%; animation-delay: 1s;"></div>
+                    <div class="particle" style="bottom: 30%; left: 20%; animation-delay: 3s;"></div>
+                </div>
+
+                <div class="skill-card javascript">
+                    <div class="skill-icon">JS</div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p class="skill-description">Dynamic programming language for creating interactive web applications and modern user interfaces.</p>
+                    <div class="particle" style="top: 15%; left: 25%; animation-delay: 0.5s;"></div>
+                    <div class="particle" style="top: 70%; right: 10%; animation-delay: 2.5s;"></div>
+                </div>
+
+                <div class="skill-card java">
+                    <div class="skill-icon">☕</div>
+                    <h3 class="skill-name">Java</h3>
+                    <p class="skill-description">Object-oriented programming language for building enterprise applications and cross-platform software.</p>
+                    <div class="particle" style="top: 30%; right: 25%; animation-delay: 1.5s;"></div>
+                    <div class="particle" style="bottom: 20%; left: 15%; animation-delay: 4s;"></div>
+                </div>
+
+                <div class="skill-card c-lang">
+                    <div class="skill-icon">C</div>
+                    <h3 class="skill-name">C</h3>
+                    <p class="skill-description">Foundational programming language for system programming, embedded systems, and performance-critical applications.</p>
+                    <div class="particle" style="top: 25%; right: 30%; animation-delay: 1s;"></div>
+                    <div class="particle" style="bottom: 25%; left: 25%; animation-delay: 3.5s;"></div>
+                </div>
+
+                <div class="skill-card wordpress">
+                    <div class="skill-icon">W</div>
+                    <h3 class="skill-name">WordPress</h3>
+                    <p class="skill-description">Popular content management system for creating websites, blogs, and e-commerce platforms.</p>
+                    <div class="particle" style="top: 35%; left: 20%; animation-delay: 2.5s;"></div>
+                    <div class="particle" style="top: 55%; right: 25%; animation-delay: 4.5s;"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Skills section ends -->
+
+    <script>
+        // Add interactive effects
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-15px) scale(1.05)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+
+        // Add more floating particles dynamically
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 6 + 's';
+            particle.style.animationDuration = (Math.random() * 4 + 4) + 's';
+            
+            document.body.appendChild(particle);
+            
+            setTimeout(() => {
+                particle.remove();
+            }, 8000);
+        }
+
+        // Create particles periodically
+        setInterval(createParticle, 3000);
+
+        // Smooth scroll animation for skill cards
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all skill cards
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="photo/Chkili.jpg" alt="">
+        </div>
+        <div class="content">
+        <h3>bacalaureat of Physical Sciences</h3>
+        <p>Chkili College </p>
+        <h4>2022-2023 |Completed </h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="photo/Racine.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>development informatique</h3>
+      <p>Ecole Racine | <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/ecole_racine/"><i class="fab fa-instagram" target="_blank"></i></a></li> 
+        <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/school/ecoleracine/posts/?feedView=all" target="_blank"><i class="fab fa-linkedin"></i></a></li> </p>
+      <h4>2024-2027 |Pursuing </h4>
+      </div>
+    </div>
+
+</div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+  <div class="box-container">
+    <div class="col-md-4">  <div class="box-container">
+
+   <div class="box tilt">
+      <img draggable="false" src="photo/word.png" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>"This Website Is Specially Built To Showcase All My Major WordPress Projects. All My WordPress-Based Creations Are Featured Here."</p>
+
+        </div>
+      </div>
+    </div> 
+
+</div></div>
+
+        <div class="col-md-3">  <div class="box tilt">
+      <img draggable="false" src="photo/site1.png" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>HTML & CSS Projects</h3>
+        </div>
+        <div class="desc">
+          <p>"This Website Is Specially Built To Showcase All My Major HTML & CSS Projects. All My Web Design Works Are Featured Here."</p>
+
+        </div>
+      </div>
+    </div> </div>
+
+        <div class="col-md-3">  <div class="box tilt">
+      <img draggable="false" src="photo/sit2.png" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>"This is a user-friendly to-do list application developed in C# with the .NET Framework. It enables users to add, edit, delete, and mark tasks as complete, featuring a clean and responsive interface built with Windows Forms."</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                        <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> </div>
+           <div class="col-md-3">  <div class="box tilt">
+      <img draggable="false" src="photo/boot.png" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>"This Website Is Specially Built To Showcase All My Major Bootstrap Projects. All My Responsive Web Designs Are Featured Here."</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                        <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> </div>
+ 
+    
+
+</div>
+
+
+<div class="viewall">
+  <a href="projects/index.html" class="btn"><span>View All</span>
+    <i class="fas fa-arrow-right"></i>
+</a>
+</div>
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>▸ HTML</h2>
+        </div>
+        <div class="desc">
+            <h3>Front-end</h3>
+            <p>September – October</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>▸ CSS</h2>
+        </div>
+        <div class="desc">
+            <h3>Front-end</h3>
+            <p>October – November</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>JavaScript</h2>
+        </div>
+        <div class="desc">
+            <h3>Front-end</h3>
+            <p>November – December</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>PHP</h2>
+        </div>
+        <div class="desc">
+            <h3>Back-end</h3>
+            <p>February – March</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Java</h2>
+        </div>
+        <div class="desc">
+            <h3>Back-end</h3>
+            <p>March – April</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Python</h2>
+        </div>
+        <div class="desc">
+            <h3>Back-end</h3>
+            <p>January – February</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div>
+
+</div>
+
+</section>
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/images/contact1.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Bensmail Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+212 771845747</p>
+          <p> <i class="fas fa-envelope"></i>anouarismail10@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>ASKEJOUR LOT NASSIM NO 210 MARRAKECH</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/rigel-anouar-8005a1343/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="anouarismail10@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="https://web.telegram.org/k/" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/rigel-anouar-8005a1343/">Bensmail anouar</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
