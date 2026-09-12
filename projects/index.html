@@ -7,148 +7,192 @@
     <link rel="stylesheet" href="./style.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link id='favicon' rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-png">
-    <title>Projects | Portfolio Jigar Sable</title>
+    <link id='favicon' rel="shortcut icon" href="../photo/emoji.png" type="image/x-png">
+    <title>All Projects | Anouar Bensmail</title>
+    <style>
+      /* Extra styles for project-page specific elements */
+      .project-page-hero {
+        background: linear-gradient(135deg, #0e2431, #2506ad);
+        color: #fff;
+        text-align: center;
+        padding: 8rem 4rem 4rem;
+        min-height: auto;
+      }
+      .project-page-hero h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      .project-page-hero h1 span { color: #ffe600; }
+      .project-page-hero p {
+        font-size: 1.5rem;
+        opacity: 0.8;
+        font-family: 'Nunito', sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    </style>
 </head>
-<body oncontextmenu="return false">
+<body>
 
-<!-- navbar starts -->
+<!-- navbar -->
 <header>
-        <a href="/" class="logo"><i class="fab fa-node-js"></i> Jigar</a>
-
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-            <li><a href="/#home">Home</a></li>
-            <li><a href="/#about">About</a></li>
-            <li><a href="/#skills">Skills</a></li>
-            <li><a href="/#education">Education</a></li>
-            <li><a class="active" href="/#work">Work</a></li>
-            <li><a href="/#experience">Experience</a></li>
-            <li><a href="/#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <a href="../index.html" class="logo"><i class="fas fa-code"></i> Anouar</a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#skills">Skills</a></li>
+            <li><a href="../index.html#education">Education</a></li>
+            <li><a class="active" href="../index.html#work">Projects</a></li>
+            <li><a href="../index.html#experience">Experience</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
 </header>
-<!-- navbar ends -->
 
-<!-- work project section starts -->
-<section class="work" id="work">
+<!-- Hero banner for projects page -->
+<div class="project-page-hero">
+    <h1>All <span>Projects</span></h1>
+    <p>A complete view of what I've built — from AI-powered APIs to Chrome extensions and automation tools.</p>
+</div>
 
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-  
-  <div id="filters" class="button-group">
-    <button class="btn is-checked" data-filter="*">All Projects</button>
+<!-- Projects grid -->
+<section class="work" id="work" style="min-height:auto; padding-top: 4rem;">
 
   <div class="box-container">
 
- <div class="box tilt">
-      <img src="photo/word1.png" alt="" />
+    <!-- EduSystem Alpha -->
+    <div class="box tilt">
+      <div class="project-img-placeholder" style="background: linear-gradient(135deg, #1a237e, #283593);">
+        <i class="fas fa-graduation-cap project-placeholder-icon"></i>
+      </div>
       <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
+        <div class="tag"><h3>EduSystem Alpha</h3></div>
         <div class="desc">
-          <p>This Website Is Specially Built To Showcase All My Major WordPress Projects. All My WordPress-Based Creations Are Featured Here."</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          <p class="project-type">School Management Platform — PFE</p>
+          <p>Full-stack school management platform with MVC architecture, secure bcrypt + RBAC authentication, 8-table MySQL database, autonomous DB Optimizer detecting SQL anti-patterns, dual LLM backend (Ollama + Groq). Validated with 58 test cases (100% pass rate).</p>
+          <div class="tech-tags">
+            <span class="tech-badge">Python</span><span class="tech-badge">Flask</span>
+            <span class="tech-badge">MySQL</span><span class="tech-badge">Jinja2</span>
+            <span class="tech-badge">Groq / Ollama</span><span class="tech-badge">Bootstrap 5</span>
           </div>
         </div>
       </div>
-    </div>   
-     <div class="box tilt">
-      <img src="photo/word3.png" alt="" />
+    </div>
+
+    <!-- BEAT FORGE -->
+    <div class="box tilt">
+      <div class="project-img-placeholder" style="background: linear-gradient(135deg, #4a148c, #6a1b9a);">
+        <i class="fas fa-music project-placeholder-icon"></i>
+      </div>
       <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
+        <div class="tag"><h3>BEAT FORGE</h3></div>
         <div class="desc">
-          <p>"This Website Is Specially Built To Showcase All My Major WordPress Projects. All My WordPress-Based Creations Are Featured Here."</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          <p class="project-type">Local AI Music Generator</p>
+          <p>Real-time AI music generation API using CUDA. Structured prompt intelligence, multi-candidate pipeline with heuristic scoring, long-form audio rendering with crossfade and professional mastering.</p>
+          <div class="tech-tags">
+            <span class="tech-badge">FastAPI</span><span class="tech-badge">PyTorch</span>
+            <span class="tech-badge">CUDA</span><span class="tech-badge">MusicGen</span>
+            <span class="tech-badge">Next.js</span>
           </div>
         </div>
       </div>
-    </div>   
- <div class="box tilt">
-      <img src="photo/Emailsender.png" alt="" />
+    </div>
+
+    <!-- RIGEL Chrome Extension -->
+    <div class="box tilt">
+      <div class="project-img-placeholder" style="background: linear-gradient(135deg, #0d1b2a, #1b2838);">
+        <i class="fas fa-star project-placeholder-icon"></i>
+      </div>
       <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
+        <div class="tag"><h3>RIGEL — New Tab Extension</h3></div>
         <div class="desc">
-          <p>Email Sender : permet d’envoyer facilement des e-mails professionnels via un formulaire de contact intégré. Agourram</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          <p class="project-type">Chrome Extension — Manifest V3</p>
+          <p>Custom Chrome new tab with animated starfield (Canvas API), intelligent URL/search detection, real-time clock, dynamic greetings, adaptive background theming, glassmorphism UI and mouse parallax.</p>
+          <div class="tech-tags">
+            <span class="tech-badge">HTML5</span><span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span><span class="tech-badge">Canvas API</span>
+            <span class="tech-badge">LocalStorage</span>
           </div>
         </div>
       </div>
-    </div>   
-     <div class="box tilt">
-      <img src="photo/kiaweb.PNG" alt="" />
+    </div>
+
+    <!-- Instagram Automation -->
+    <div class="box tilt">
+      <div class="project-img-placeholder" style="background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);">
+        <i class="fab fa-instagram project-placeholder-icon"></i>
+      </div>
       <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
+        <div class="tag"><h3>Instagram Automation Tool</h3></div>
         <div class="desc">
-          <p>Basic KIA webpage displays the info about seltos product range. Specs and Image Gallery.</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          <p class="project-type">Python Desktop App</p>
+          <p>Desktop application automating Instagram subscription management via Selenium with secure session storage, modern dark CustomTkinter UI, multithread execution, full logging with statistics, and modular architecture.</p>
+          <div class="tech-tags">
+            <span class="tech-badge">Python</span><span class="tech-badge">Selenium</span>
+            <span class="tech-badge">CustomTkinter</span><span class="tech-badge">Multithreading</span>
           </div>
         </div>
       </div>
-    </div> 
-        <div class="box tilt">
-      <img src="photo/portfolio.png" alt="" />
+    </div>
+
+    <!-- AI Content Pipeline -->
+    <div class="box tilt">
+      <div class="project-img-placeholder" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
+        <i class="fas fa-robot project-placeholder-icon"></i>
+      </div>
       <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
+        <div class="tag"><h3>AI Content Creation Pipeline</h3></div>
         <div class="desc">
-          <p>My portfolio</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          <p class="project-type">AI Automation</p>
+          <p>Applied advanced prompt engineering for visual storytelling and AI voice synthesis. Automated video production pipelines for large-scale content creation using generative AI tools.</p>
+          <div class="tech-tags">
+            <span class="tech-badge">Generative AI</span><span class="tech-badge">Prompt Engineering</span>
+            <span class="tech-badge">CapCut</span>
           </div>
         </div>
       </div>
-    </div> 
+    </div>
+
+    <!-- Professional Portfolio -->
+    <div class="box tilt">
+      <img src="photo/portfolio.png" alt="Portfolio Website" />
+      <div class="content">
+        <div class="tag"><h3>Professional Portfolio</h3></div>
+        <div class="desc">
+          <p class="project-type">Personal Website</p>
+          <p>This portfolio website — built from scratch with vanilla HTML, CSS, and JavaScript. Features particles animation, scroll reveal effects, tilt.js card effects, and a responsive mobile layout.</p>
+          <div class="tech-tags">
+            <span class="tech-badge">HTML5</span><span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span><span class="tech-badge">Bootstrap</span>
+          </div>
+          <div class="btns">
+            <a href="https://github.com/Rigel-anouar/Portfolio" class="btn btn-code" target="_blank"><i class="fab fa-github"></i> View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
-  <div class="backbtn">
-    <a href="/#work" class="btn">
+  <div class="backbtn" style="display:flex;justify-content:center;margin:3rem 0;">
+    <a href="../index.html#work" class="btn" style="display:inline-flex;align-items:center;gap:0.8rem;padding:1.4rem 3rem;border-radius:0.5em;color:#fff;font-weight:600;border:2px solid rgba(255,255,255,0.5);font-family:'Nunito',sans-serif;font-size:1.6rem;">
         <i class="fas fa-arrow-left"></i>
         <span>Back to Home</span>
-  </a>
+    </a>
   </div>
 
 </section>
-<!-- work project section ends -->
 
 <!-- scroll top btn -->
-<a href="#work" class="fas fa-angle-up" id="scroll-top"></a>
-<!-- scroll back to top -->
+<a href="#" class="fas fa-angle-up" id="scroll-top" aria-label="Scroll to top"></a>
 
-
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
-<!-- jquery cdn -->
+<!-- JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- vanilla tilt.js links -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- scroll reveal anim -->
 <script src="https://unpkg.com/scrollreveal"></script>
-
-<!-- isotope filter plugin cdn -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
-
 <script src="./script.js"></script>
-
 </body>
 </html>
