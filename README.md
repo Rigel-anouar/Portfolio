@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Portfolio Banner](./photo/portfolio-preview.png)
+![Portfolio Banner](./photo/banner.png)
 
 ### **Full-Stack Developer & AI Engineering Student**
 Marrakech, Morocco 📍
@@ -11,7 +11,7 @@ Marrakech, Morocco 📍
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rigel-anouar)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anouar.bensmail26@gmail.com)
 
-[**🌐 View Live Portfolio**](https://rigel-anouar.github.io/Portfolio/) &nbsp;|&nbsp; [**📄 View Resume (CV)**](cv.html)
+[**🌐 View Live Portfolio**](https://rigel-anouar.github.io/Portfolio/) &nbsp;|&nbsp; [**📄 View Resume (CV)**](https://rigel-anouar.github.io/Portfolio/cv.html)
 
 </div>
 
