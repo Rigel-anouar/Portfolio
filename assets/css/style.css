@@ -1302,14 +1302,23 @@ form .button-area {
   gap: 0.5rem;
 }
 
-/* Featured video player — taller, full width */
-.video-player-featured {
+/* Featured video player — portrait 9:16 wrapper, centered */
+.featured-video-wrapper {
   width: 100%;
-  height: 36rem;
-  object-fit: cover;
+  max-width: 420px;
+  aspect-ratio: 9 / 16;
+  margin-inline: auto;
+  background: #050505;
+  overflow: hidden;
+  border-radius: 0.6rem;
   display: block;
-  background: #000;
-  border-radius: 0;
+}
+.featured-video-wrapper video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 /* Row that holds project-type label + metric badge side by side */
@@ -1377,11 +1386,8 @@ form .button-area {
   font-weight: 700;
 }
 
-/* Responsive: featured video shorter on mobile */
+/* Responsive: featured video badge on mobile */
 @media (max-width: 600px) {
-  .video-player-featured {
-    height: 22rem;
-  }
   .video-meta-row {
     flex-direction: column;
     align-items: flex-start;
