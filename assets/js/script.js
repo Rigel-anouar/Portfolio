@@ -74,11 +74,11 @@ document.addEventListener('visibilitychange', function () {
 // Typed.js — hero typing effect
 var typed = new Typed(".typing-text", {
     strings: [
-        "Full-Stack Web Apps",
-        "Python Automation",
-        "AI-Powered APIs",
-        "Chrome Extensions",
-        "Real Projects That Work"
+        "AI Cinematic Videos",
+        "Digital Content for Social Media",
+        "Full-Stack Web Applications",
+        "Python Automation Tools",
+        "Creative Visual Experiences"
     ],
     loop: true,
     typeSpeed: 55,

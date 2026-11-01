@@ -1,0 +1,14 @@
+# Temporary analysis frames (not needed in repo)
+photo/vedio/frames/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+
+# Node (if used for local serving)
+node_modules/

@@ -1,130 +1,229 @@
-# Anouar Bensmail — Developer Portfolio
+# Anouar Bensmail — AI Video Creator & Software Development Portfolio
 
 <div align="center">
 
 ![Portfolio Banner](./photo/banner.png)
 
-### **Full-Stack Developer & AI Engineering Student**
-Marrakech, Morocco 📍
+### **AI Video Creator · Cinematic Storytelling · Social Media Content · Software Development**
+
+📍 Marrakech, Morocco &nbsp;|&nbsp; Currently at Peritus Legal Solutions (UK)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rigel-anouar-8005a1343/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rigel-anouar)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anouar.bensmail26@gmail.com)
 
-[**🌐 View Live Portfolio**](https://rigel-anouar.github.io/Portfolio/) &nbsp;|&nbsp; [**📄 View Resume (CV)**](https://rigel-anouar.github.io/Portfolio/cv.html)
+[**🌐 Live Portfolio**](https://rigel-anouar.github.io/Portfolio/) &nbsp;|&nbsp; [**📄 View CV**](https://rigel-anouar.github.io/Portfolio/cv.html)
 
 </div>
 
 ---
 
-## 📌 About The Project
+## 👤 About Me
 
-This repository hosts the source code for my personal developer portfolio. Built using vanilla **HTML5**, **CSS3**, and modern **JavaScript**, it is designed to be lightweight, responsive, and fast without relying on heavy frontend frameworks.
+I'm **Anouar Bensmail**, known creatively as **Rigel** — an AI Video Creator and Software Development Technician based in Marrakech, Morocco.
 
-It presents my real-world projects, technical skillset, professional internship experience, and academic background in web development and artificial intelligence.
+I combine two professional strengths:
 
----
+**Creative** — AI-powered video production, cinematic visual storytelling, generative AI tools, creative direction and short-form social media content creation.
 
-## 💻 Tech Stack & Architecture
+**Technical** — Full-stack software development, Python automation, AI-powered APIs and practical digital solutions.
 
-### Portfolio Stack
-- **Frontend**: HTML5, CSS3 (Custom Properties & Glassmorphism), JavaScript (ES6), jQuery
-- **Libraries**: Particles.js, Typed.js, Vanilla Tilt.js, ScrollReveal
-- **Icons & Typography**: Font Awesome 5, Google Fonts (Poppins & Nunito)
-
-### Core Developer Skills
-- **Programming Languages**: Python (Advanced), JavaScript (ES6), HTML5, CSS3
-- **Frameworks & Backends**: FastAPI, Next.js, Bootstrap 5, Django, Flask, Jinja2
-- **AI & Data Engineering**: PyTorch, CUDA, Prompt Engineering, Audio Signal Processing, openpyxl
-- **Databases**: MySQL, SQLite
-- **Developer Tools**: Git, Selenium WebDriver, CustomTkinter, CapCut
+My current professional direction is AI video creation and content production, while my technical background in software development remains an active and important part of my identity.
 
 ---
 
-## 🚀 Projects Showcase
+## 🎬 Featured AI Cinematic Project
 
 <div align="center">
 
-![Projects Preview](./photo/projects-preview.png)
+<img src="./photo/vedio/posters/sins_poster.jpg" alt="There Were Seven Sins — Poster" width="320"/>
+
+### THERE WERE SEVEN SINS. I BECAME THE EIGHTH.
+
+**AI Cinematic Video · Original Creative Concept**
+
+> An original dark cinematic AI short featuring a solitary figure in a subway, a blood-red "SEVEN SINS" title overlay and the RIGEL creative brand. A tense, atmospheric visual narrative built entirely through AI-assisted generation, creative direction and cinematic editing.
+
+🎯 **50.7K+ views** reached in approximately **one week** after publication — and still growing at last check on November 1, 2026.
+
+> ⚠️ This achievement belongs to my **personal creative project**, not to Peritus Legal Solutions.
+
+[▶ Watch on the live portfolio](https://rigel-anouar.github.io/Portfolio/#ai-video)
 
 </div>
 
-### 1. [EduSystem Alpha](https://github.com/Rigel-anouar) — School Management Platform with DB Optimization (PFE)
-- Full-stack web application (MVC architecture) featuring secure authentication (bcrypt) and Role-Based Access Control (RBAC) across 4 profiles: Administrator, Teacher, Student, and DBA.
-- Relational MySQL database (8 tables) with parameterized queries protecting against SQL injection.
-- **Autonomous DB Optimizer module**: monitors performance via MySQL `PERFORMANCE_SCHEMA`, detects 5 SQL anti-patterns, and generates recommendations through a 3-layer engine (index detection, query rewrite, impact prediction).
-- Real-time Discord alerting system driven by dual asynchronous daemons with persistent cooldowns.
-- Dual LLM backend integration (local Ollama + cloud Groq with static fallback), validated across 58 test cases (100% pass rate).
-- **Tech Stack**: `Python`, `Flask`, `MySQL`, `SQLite`, `Bootstrap 5`, `Jinja2`, `bcrypt`, `Groq/Ollama LLM`
+---
+
+## 🎥 AI Video Projects
+
+| Project | Visual | Description | Tools |
+|---------|--------|-------------|-------|
+| **There Were Seven Sins. I Became The Eighth.** | <img src="./photo/vedio/posters/sins_poster.jpg" width="120"/> | Dark cinematic vertical short — lone protagonist on a metro, atmospheric horror title overlay, RIGEL branding. ~59 seconds. **50.7K+ views in ~1 week.** | Flow Omni 1.1 Flash, CapCut |
+| **One Among the Faceless** | <img src="./photo/vedio/posters/vedio1_poster.jpg" width="120"/> | Surreal AI short — a figure in a dark suit standing at the centre of a vast crowd of faceless white-robed figures. Visual meditation on identity and conformity. ~28 seconds. | AI Video Generation, CapCut |
+| **The Last Crusade** | <img src="./photo/vedio/posters/vedio2_poster.jpg" width="120"/> | Epic dark fantasy cinematic — a young commander in a white crusader cloak leads a vast armored medieval army through a storm-lit battlefield. ~29 seconds. | AI Video Generation, CapCut |
+
+---
+
+## 🎞 Personal Cinematic Project — In Development
+
+### THE PAPER BOAT — *We Were Going to See the World*
+
+**Status: 🔧 IN DEVELOPMENT**
+
+> "An original cinematic short film exploring childhood dreams, nostalgia and forgotten ambitions through the story of a handmade paper boat and a journey back to the past."
+
+This project is not yet published. No views or performance metrics apply to this film.
+
+---
+
+## 🛠 Creative Tools & Technologies
+
+### 🎬 AI Video Generation
+`Flow Omni 1.1 Flash` &nbsp; `Higgsfield` &nbsp; `Higgsfield Genjutsu` &nbsp; `Kling AI`
+
+### 🖼 AI Image Generation
+`Leonardo AI` &nbsp; `Meta AI` &nbsp; `Gemini` &nbsp; `ChatGPT`
+
+### ✂️ Video Editing
+`CapCut`
+
+### 🎨 Creative Skills
+`Visual Storytelling` &nbsp; `Creative Direction` &nbsp; `Prompt Engineering` &nbsp; `Cinematic Scene Planning` &nbsp; `AI Video Production` &nbsp; `Short-Form Social Media Content`
+
+---
+
+## 💻 Software Development
+
+### Portfolio Tech Stack
+- **Frontend**: HTML5, CSS3 (Custom Properties), JavaScript (ES6), jQuery
+- **Libraries**: Particles.js, Typed.js, Vanilla Tilt.js, ScrollReveal
+- **Icons & Typography**: Font Awesome 5, Google Fonts (Poppins & Nunito)
+
+### Developer Skills
+- **Languages**: Python · JavaScript (ES6) · HTML5 · CSS3
+- **Frameworks & Backends**: FastAPI · Flask · Django · Next.js · Bootstrap 5 · Jinja2
+- **AI & Data**: PyTorch · CUDA · Prompt Engineering · openpyxl
+- **Databases**: MySQL · SQLite
+- **Tools**: Git · Selenium WebDriver · CustomTkinter
+
+---
+
+## 🚀 Software Development Projects
+
+### 1. EduSystem Alpha — School Management Platform *(PFE)*
+Full-stack web application built as my final year project with MVC architecture, secure authentication (bcrypt + RBAC) across 4 user profiles, and an 8-table MySQL relational database.
+
+- **Autonomous DB Optimizer**: monitors MySQL `PERFORMANCE_SCHEMA`, detects SQL anti-patterns, generates recommendations through a 3-layer engine (index detection, query rewrite, impact prediction).
+- Dual LLM backend (local Ollama + cloud Groq with fallback). Validated across 58 test cases.
+- **Tech**: `Python` `Flask` `MySQL` `Jinja2` `Bootstrap 5` `Groq/LLM` `bcrypt`
 
 ---
 
 ### 2. BEAT FORGE — Local AI Music Generator
-- Real-time AI music generation API optimized with CUDA acceleration.
-- Structured prompt intelligence with controllable generation parameters.
-- Multi-candidate pipeline utilizing heuristic scoring and automated retry mechanisms.
-- Long-form audio rendering in sequential blocks with crossfade joining and mastering.
-- **Tech Stack**: `FastAPI`, `PyTorch`, `Meta MusicGen`, `Next.js`, `CUDA`, `NVIDIA RTX 3050`
+Real-time AI music generation API with CUDA acceleration, structured prompt intelligence, multi-candidate pipeline with heuristic scoring, and long-form audio rendering with crossfade mastering.
+
+- **Tech**: `FastAPI` `PyTorch` `Meta MusicGen` `Next.js` `CUDA`
 
 ---
 
 ### 3. RIGEL — New Tab Chrome Extension
-- Chrome extension replacing the default new tab page with an immersive space UI.
-- Interactive starfield with animated shooting stars rendered via Canvas API and `requestAnimationFrame`.
-- Intelligent search bar with automatic query/URL detection, real-time clock, and dynamic greetings.
-- Dynamic interface adaptation based on automatic analysis of background dominant colors.
-- Built with glassmorphism styling, mouse parallax, and full Chrome Extension Manifest V3 / CSP compliance.
-- **Tech Stack**: `HTML5`, `CSS3`, `JavaScript (ES6)`, `Canvas API`, `LocalStorage`, `Chrome MV3`
+Custom Chrome new tab replacing the default page with an immersive space UI — animated starfield via Canvas API, intelligent URL/search detection, real-time clock, adaptive background theming, glassmorphism design. Full Manifest V3 compliance.
+
+- **Tech**: `HTML5` `CSS3` `JavaScript (ES6)` `Canvas API` `LocalStorage` `Chrome MV3`
 
 ---
 
 ### 4. Instagram Automation Tool
-- Desktop automation software managing Instagram subscription requests using Selenium WebDriver with secure session persistence.
-- Modern dark-mode GUI built with CustomTkinter and multithreaded task execution to maintain interface fluidity and allow immediate cancellation.
-- Comprehensive session logging generating structured reports (success rate, failures, timestamps, execution statistics).
-- Modular architecture (`main.py`, `ui.py`, `bot.py`, `utils.py`) for clean maintainability.
-- **Tech Stack**: `Python`, `Selenium WebDriver`, `CustomTkinter`, `Multithreading`
+Desktop application automating Instagram subscription management via Selenium WebDriver, with secure session persistence, modern CustomTkinter dark UI, multithreaded execution, and structured session logging.
+
+- **Tech**: `Python` `Selenium WebDriver` `CustomTkinter` `Multithreading`
 
 ---
 
 ### 5. Professional Portfolio Website
-- Fully custom, high-performance personal portfolio.
-- Dynamic interactive particles, smooth scroll reveals, 3D card tilt physics, and integrated printable executive CV.
-- **Tech Stack**: `HTML5`, `CSS3`, `JavaScript`, `Bootstrap`
+This portfolio — a custom responsive personal website featuring particle animations, scroll reveal effects, 3D card tilt physics and a working contact form.
+
+- **Tech**: `HTML5` `CSS3` `JavaScript` `Bootstrap`
 
 ---
 
 ## 💼 Professional Experience
 
-### **Stagiaire Développeur en Automatisation**
+### AI Video Creator & Social Media Content Creator
+**Peritus Legal Solutions** — UK-based · Marrakech, Morocco | *2026 – Present*
+
+Creating AI-powered video content for social media platforms, developing creative concepts and visual storytelling, and producing short-form videos for TikTok, Instagram Reels and YouTube Shorts using AI generation tools and video editing software.
+
+---
+
+### Stagiaire Développeur en Automatisation
 **Tectra** — Marrakech, Morocco | *2025*
-- Built an automated Python extraction tool to extract identity and administrative data (CIN, full names, etc.) from over 300+ unstructured PDF documents, eliminating repetitive manual entry.
-- Engineered a data processing and mapping pipeline structuring extracted data into normalized Excel reports using `openpyxl`.
-- Optimized operational workflow, reducing document processing duration by **60–70%** and virtually eliminating human transcription errors.
-- **Technologies**: `Python`, `openpyxl`, `PDF Parsing`, `Workflow Automation`
+
+Built an automated Python tool to extract identity and administrative data from PDF documents and generate structured Excel reports via `openpyxl`.
+
+- **Tech**: `Python` `openpyxl` `PDF Parsing` `Excel Automation`
 
 ---
 
 ## 🎓 Education
 
-- **Technicien Spécialisé en Développement Informatique (Web & Logiciel)**  
-  *École Racine — Marrakech, Morocco* | **2024 – 2027 (In Progress)**
-- **Baccalauréat Sciences Physiques**  
-  *Lycée Chkili — Marrakech, Morocco* | **2022 – 2023**
+| Diploma | Institution | Period | Status |
+|---------|------------|--------|--------|
+| **Technicien Spécialisé en Développement Informatique** (Web & Logiciel) | École Racine — Marrakech | 2024 – 2026 | ✅ Obtained October 2026 |
+| **Baccalauréat Sciences Physiques** | Lycée Chkili — Marrakech | 2022 – 2023 | ✅ Completed |
 
 ---
 
 ## 🌐 Languages
 
-- **Arabic**: Native (Langue maternelle)
-- **English**: Intermediate
-- **French**: Beginner / Operational (Débutant opérationnel)
+| Language | Level |
+|----------|-------|
+| Arabic | Native |
+| English | B1 / Intermediate |
+| French | Basic |
+| German | Beginner — currently learning |
 
 ---
 
-## 📬 Contact & Connect
+## 📁 Local Development
 
-I am currently open to **internships**, **junior developer positions**, and opportunities in **web development** and **AI engineering**.
+This is a static HTML/CSS/JS website — no build tools or package manager required.
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Rigel-anouar/Portfolio.git
+cd Portfolio
+
+# 2. Open directly in browser
+#    Double-click index.html
+#    — OR — serve with a local static server:
+npx serve .
+# Then open: http://localhost:3000
+
+# 3. For video playback, use a local server
+#    (browsers block local file:// video in some cases)
+```
+
+**Project structure:**
+```
+Portfolio/
+├── index.html          # Main page
+├── cv.html             # Interactive CV (print-to-PDF)
+├── 404.html            # Custom 404 page
+├── assets/
+│   ├── css/style.css   # All styles
+│   ├── js/script.js    # Main JS (Typed.js, EmailJS, ScrollReveal)
+│   └── images/
+├── photo/
+│   ├── vedio/          # AI video files + posters
+│   ├── img/            # Photography gallery
+│   └── me.jpeg         # Profile photo
+└── projects/           # Extended projects page
+```
+
+---
+
+## 📬 Contact
 
 - **Email**: [anouar.bensmail26@gmail.com](mailto:anouar.bensmail26@gmail.com)
 - **Phone**: +212 771 845 747
@@ -135,5 +234,5 @@ I am currently open to **internships**, **junior developer positions**, and oppo
 ---
 
 <div align="center">
-  <sub>Designed & Developed by Anouar Bensmail © 2025–2026</sub>
+  <sub>Designed & Developed by Anouar Bensmail (Rigel) © 2026</sub>
 </div>
